@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac09d2cf8ab55034aae6f6f76fb876c9, type: 3}
+  m_Name: Leather
+  m_EditorClassIdentifier: 
+  label: Leather
+  maxAmount: 100
+  decayTime: 2
+  decayOnUse: 0
+  mass: 1
+  carryingCapacity: 0
+  maxUsers: 0
+  needSatisfactionOnHaving:
+  - need: 5
+    value: -0.5
+  - need: 2
+    value: 0.5
+  needSatisfactionOnConsumption: []
+  vehicle: []
+  absoluteWorth: 0
+  properties: []

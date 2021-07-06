@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Cook Lavish Meal
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 0.5
+  maxWorkers: 1
+  carriesOnState: 1
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: 63524fba18f371540beb87b0eb4eebfd, type: 2}
+    amount: 2
+    stateCarriedOn: 1
+  - ingredient: {fileID: 11400000, guid: 45431e6220d95904f910ceeb2c5ad2d2, type: 2}
+    amount: 10
+    stateCarriedOn: 1
+  tools:
+  - tool: {fileID: 11400000, guid: 0d65febc7bce51542a360f4f17a29c27, type: 2}
+    timeReduction: 0.75
+    layer: 0
+    useOccupation: 0.1
+    isRequired: 0
+  result:
+  - product: {fileID: 11400000, guid: cefdf8d054ad72b45bf12c5c33db3ea6, type: 2}
+    amount: 1
+    stateReceived: 1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Build Foundry
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 60
+  maxWorkers: 50
+  carriesOnState: 0
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: 10a2f11ca2407bd46ae5d0757771fbd9, type: 2}
+    amount: 500
+    stateCarriedOn: 0
+  - ingredient: {fileID: 11400000, guid: 908207ff9bbae974ca0189d2a61b861a, type: 2}
+    amount: 500
+    stateCarriedOn: 0
+  - ingredient: {fileID: 11400000, guid: a6503a135c1d2d047816cb1eb64c3716, type: 2}
+    amount: 2000
+    stateCarriedOn: 0
+  tools: []
+  result:
+  - product: {fileID: 11400000, guid: 17127659e98d90c4f9923759bb03a0a9, type: 2}
+    amount: 1
+    stateReceived: 0

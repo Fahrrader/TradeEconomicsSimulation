@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Make Axe
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 0.2
+  maxWorkers: 1
+  carriesOnState: 1
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: 10a2f11ca2407bd46ae5d0757771fbd9, type: 2}
+    amount: 1
+    stateCarriedOn: 1
+  - ingredient: {fileID: 11400000, guid: 047679602a8222645b933d3304265140, type: 2}
+    amount: 1
+    stateCarriedOn: 1
+  tools:
+  - tool: {fileID: 11400000, guid: 17127659e98d90c4f9923759bb03a0a9, type: 2}
+    timeReduction: 0.5
+    layer: 0
+    useOccupation: 0.02
+    isRequired: 0
+  - tool: {fileID: 11400000, guid: 5562304e16a484842a9968ca85e07d8e, type: 2}
+    timeReduction: 0.5
+    layer: 0
+    useOccupation: 0.05
+    isRequired: 0
+  result:
+  - product: {fileID: 11400000, guid: cd82c7e280149c44e86522d27c8ce73f, type: 2}
+    amount: 1
+    stateReceived: 1

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53951b79ba1c729499fef43958c7ed1c, type: 3}
+  m_Name: WildGame
+  m_EditorClassIdentifier: 
+  label: Wild Game
+  maxAmount: 2500
+  minimumAmountToSpawn: -1
+  frequency: 1
+  waterLevelSensitivityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1.5
+      value: 0.33
+      inSlope: 0.00067679747
+      outSlope: 0.00067679747
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 15
+      value: 1
+      inSlope: 0.000007712295
+      outSlope: 0.000007712295
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.31688276
+    - serializedVersion: 3
+      time: 1170
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  temperatureSensitivityCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -50
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: -35
+      value: 0.5
+      inSlope: 0.02502887
+      outSlope: 0.02502887
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.2583329
+    - serializedVersion: 3
+      time: -15
+      value: 1
+      inSlope: -0.000026811598
+      outSlope: -0.000026811598
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.53611094
+    - serializedVersion: 3
+      time: 30
+      value: 1
+      inSlope: 0.000016692373
+      outSlope: 0.000016692373
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.8611113
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 45
+      value: 0.5
+      inSlope: -0.030138394
+      outSlope: -0.030138394
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.31388956
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 60
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  canBeUnderwater: 0
+  biomePresenceList:
+  - biome: 0
+    presence: 0.1
+  - biome: 9
+    presence: 0.2
+  isBiomeExclusive: 0
+  isForageable: 1
+  replenishmentRate: 0.5
+  absoluteWorth: 0
+  baseHarvestCost: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Repair Mint
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 6
+  maxWorkers: 20
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: 658a9346afb015445a4487b3b557b31c, type: 2}
+    amount: 1
+  tools: []
+  result:
+  - product: {fileID: 11400000, guid: 658a9346afb015445a4487b3b557b31c, type: 2}
+    amount: 1

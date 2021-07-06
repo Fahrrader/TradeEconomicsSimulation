@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Demolish Hippodrome
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 8
+  maxWorkers: 30
+  carriesOnState: 0
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: cf954d8d09852e04b9e9cdad7dd2d85b, type: 2}
+    amount: 1
+    stateCarriedOn: 0
+  tools: []
+  result:
+  - product: {fileID: 11400000, guid: 10a2f11ca2407bd46ae5d0757771fbd9, type: 2}
+    amount: 200
+    stateReceived: 0

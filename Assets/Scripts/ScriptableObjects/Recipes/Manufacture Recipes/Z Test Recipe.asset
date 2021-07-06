@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Z Test Recipe
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 12
+  maxWorkers: 4
+  carriesOnState: 1
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: d05cb9bc588a70d408c070174aafcd34, type: 2}
+    amount: 1
+    stateCarriedOn: 0
+  - ingredient: {fileID: 11400000, guid: 28467e99c4e14eb498651e138f7423b7, type: 2}
+    amount: 2
+    stateCarriedOn: 1
+  tools:
+  - tool: {fileID: 11400000, guid: 0ee3239ec4985a24391e3f4d3266da73, type: 2}
+    timeReduction: 0.2
+    layer: 0
+    useOccupation: 0.5
+    isRequired: 0
+  - tool: {fileID: 11400000, guid: 52acd7782c250a04d8b77115f2989d49, type: 2}
+    timeReduction: 0.1
+    layer: 0
+    useOccupation: 1
+    isRequired: 0
+  - tool: {fileID: 11400000, guid: 55c0108f1b8278b4bbb052e3bb109bec, type: 2}
+    timeReduction: 0.4
+    layer: 1
+    useOccupation: 1
+    isRequired: 1
+  result:
+  - product: {fileID: 11400000, guid: 409481dc3e4b4b24fb71a9370d534e83, type: 2}
+    amount: 1
+    stateReceived: 0
+  - product: {fileID: 11400000, guid: 63524fba18f371540beb87b0eb4eebfd, type: 2}
+    amount: 60
+    stateReceived: 1
+  - product: {fileID: 11400000, guid: 4dfcf43b235be3348afd6ae139bca1cf, type: 2}
+    amount: 500
+    stateReceived: 0
+  - product: {fileID: 11400000, guid: 52acd7782c250a04d8b77115f2989d49, type: 2}
+    amount: 40
+    stateReceived: 0

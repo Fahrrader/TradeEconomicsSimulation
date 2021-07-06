@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: HuntWithBow
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 0.2
+  maxWorkers: 2
+  carriesOnState: 0
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: f6b70dedcf439534a8282d0087e955d3, type: 2}
+    amount: 1
+    stateCarriedOn: 0
+  - ingredient: {fileID: 11400000, guid: b5cb8b11e0ec4cb40b4fec25b25c54f8, type: 2}
+    amount: 2
+    stateCarriedOn: 0
+  tools:
+  - tool: {fileID: 11400000, guid: daeb4fadf9060654ab4d844a8576a35c, type: 2}
+    timeReduction: 0.35
+    layer: 0
+    useOccupation: 1
+    isRequired: 1
+  - tool: {fileID: 11400000, guid: 2859e87c75290a9418036bce0a94011a, type: 2}
+    timeReduction: 0.25
+    layer: 1
+    useOccupation: 1
+    isRequired: 0
+  result:
+  - product: {fileID: 11400000, guid: 63524fba18f371540beb87b0eb4eebfd, type: 2}
+    amount: 5
+    stateReceived: 0
+  - product: {fileID: 11400000, guid: b9a58e745c9d581478a2c8abf0743fc1, type: 2}
+    amount: 1
+    stateReceived: 0

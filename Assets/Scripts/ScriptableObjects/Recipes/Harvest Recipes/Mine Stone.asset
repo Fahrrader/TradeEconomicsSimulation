@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Mine Stone
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 0.25
+  maxWorkers: 1
+  carriesOnState: 0
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: 42d923dee0cf60e46b2a77108a4b576a, type: 2}
+    amount: 1
+    stateCarriedOn: 0
+  tools:
+  - tool: {fileID: 11400000, guid: 819565d72df92874d888c49907b6f18c, type: 2}
+    timeReduction: 0.4
+    layer: 0
+    useOccupation: 0.01
+    isRequired: 0
+  - tool: {fileID: 11400000, guid: f5d325a8aed0a5c4baaf8dcfdc16a158, type: 2}
+    timeReduction: 0.25
+    layer: 0
+    useOccupation: 0.02
+    isRequired: 0
+  - tool: {fileID: 11400000, guid: 55c0108f1b8278b4bbb052e3bb109bec, type: 2}
+    timeReduction: 0.5
+    layer: 1
+    useOccupation: 1
+    isRequired: 0
+  result:
+  - product: {fileID: 11400000, guid: a6503a135c1d2d047816cb1eb64c3716, type: 2}
+    amount: 1
+    stateReceived: 0

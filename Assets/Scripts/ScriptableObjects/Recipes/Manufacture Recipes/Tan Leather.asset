@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 288537d9a1c0a4149a626c8e8ba246e0, type: 3}
+  m_Name: Tan Leather
+  m_EditorClassIdentifier: 
+  timeCostInSeasons: 0.75
+  maxWorkers: 3
+  carriesOnState: 0
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: b9a58e745c9d581478a2c8abf0743fc1, type: 2}
+    amount: 1
+    stateCarriedOn: 0
+  tools:
+  - tool: {fileID: 11400000, guid: d566b1dc9a181f247a42fd5c014dda63, type: 2}
+    timeReduction: 0.9
+    layer: 0
+    useOccupation: 0.1
+    isRequired: 0
+  result:
+  - product: {fileID: 11400000, guid: 79d0344c63eb6f8498c9142eb40cba5a, type: 2}
+    amount: 1
+    stateReceived: 0
